@@ -30,12 +30,12 @@ const Layout = ({ children }) => {
 
   return (
     <div className="flex h-screen">
-      <aside className="bg-[#FAFAFA] border-r border-[#f1f1f1] h-full hidden sm:flex sm:w-24 lg:w-60 flex-col lg:px-7 py-7 items-center gap-12 ">
+      <aside className="bg-[#FAFAFA] border-r border-[#f1f1f1] h-full hidden sm:flex sm:w-24 lg:w-64 flex-col lg:px-7 py-7 items-center gap-12 ">
         <h1 className="text-2xl font-semibold text-[#FF5151]">
           <span className="hidden lg:inline">Contrata </span>;D
         </h1>
 
-        <nav className="flex flex-col gap-4  text-base font-medium text-[#686868]/50 ">
+        <nav className="flex flex-col gap-4 text-base font-medium text-[#686868]/50 ">
           <p className="text-xs">
             <span className="hidden sm:inline">MENU </span>
             <span className="hidden lg:inline">PRINCIPAL</span>
@@ -118,10 +118,6 @@ const Layout = ({ children }) => {
         </header>
         <main>{children}
         <Primary />
-        <Email />
-        <Email />
-        <Email />
-        <Email />
         <Email />
         </main>
       </div>
