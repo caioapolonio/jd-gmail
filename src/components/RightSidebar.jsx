@@ -1,4 +1,3 @@
-import { Star, Settings } from "lucide-react";
 import profile from "../assets/profile.png";
 
 export const RightSidebar = () => {
@@ -7,7 +6,7 @@ export const RightSidebar = () => {
       <nav>
         <ul className="flex flex-col items-center">
           <li className=" flex items-center cursor-pointer mb-5">
-            <img src={profile} alt="" width={26} />
+            <img src={profile} alt="" width={38} />
           </li>
           <li className="p-4 flex items-center cursor-pointer">
             <img src="/icons/calendar.svg" alt="" width={26} />

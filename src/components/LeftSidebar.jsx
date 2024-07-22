@@ -1,7 +1,6 @@
-import { Mail, Inbox, Menu } from "lucide-react";
 export const LeftSidebar = () => {
   return (
-    <aside className="w-64 bg-[#F6F8FC] py-7 text-black flex flex-col gap-4">
+    <aside className="w-64 bg-[#F6F8FC] py-5 text-black flex flex-col gap-4">
       <div className="flex flex-row gap-6 px-4 items-center">
         <img src="/icons/menu.svg" width={30} />
         <img src="/icons/gmail.ico" width={35} />

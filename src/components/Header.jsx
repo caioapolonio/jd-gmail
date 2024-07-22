@@ -1,7 +1,6 @@
 import {
   Info,
   LayoutGrid,
-  Menu,
   Search,
   Settings,
   SlidersVertical,
