@@ -7,10 +7,6 @@ const App = () => {
     <Layout>
       <Primary />
       <Email />
-      <Email />
-      <Email />
-      <Email />
-      <Email />
     </Layout>
   );
 };
